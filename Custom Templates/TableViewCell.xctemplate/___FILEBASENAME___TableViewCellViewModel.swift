@@ -7,14 +7,11 @@
 
 import UIKit
 
-class ___VARIABLE_cellName___TableViewCellViewModel {
-    weak var delegate: ___VARIABLE_cellName___TableViewCell?
+class ___VARIABLE_cellName___TableViewCellModel {
 
-    init(delegate: ___VARIABLE_cellName___TableViewCell) {
-        self.delegate = delegate
-    }
+
 }
 
 // MARK: - Private Method
 
-private extension ___VARIABLE_cellName___TableViewCellViewModel {}
+private extension ___VARIABLE_cellName___TableViewCellModel {}
