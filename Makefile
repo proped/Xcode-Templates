@@ -8,10 +8,8 @@ install_templates:
 	@rm -fR $(XCODE_USER_TEMPLATES_DIR)/$(TEMPLATES_DIR)
 	@cp -R $(TEMPLATES_DIR) $(XCODE_USER_TEMPLATES_DIR)
 	@echo "Installing templates"
-	@echo '🐶  scene: success ✅'
-	@echo '🦊  service: success ✅'
-	@echo '🦄  UITableView: success ✅'
-	@echo '🦖  UICollectionView: success ✅'
+	@echo 'ListViewController: success ✅'
+	@echo 'UITableViewCell: success ✅'
 	@echo 'Install template success. ✳️'
 
 uninstall_templates:
