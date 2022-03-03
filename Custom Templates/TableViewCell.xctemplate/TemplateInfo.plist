@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyTableViewCell</string>
+	<key>Description</key>
+	<string>This generates new UITableViewCell with view model</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of cell</string>
+			<key>Identifier</key>
+			<string>cellName</string>
+			<key>Name</key>
+			<string>New Cell Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_cellName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_cellName:identifier___</string>
+			<key>Description</key>
+			<string>XIB name</string>
+			<key>Identifier</key>
+			<string>xibName</string>
+			<key>Name</key>
+			<string>xib</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_cellName:identifier___TableViewCellViewModel</string>
+			<key>Description</key>
+			<string>The view model of cell</string>
+			<key>Identifier</key>
+			<string>tableViewCellViewModelName</string>
+			<key>Name</key>
+			<string>View Model Name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_cellName:identifier___TableViewCell</string>
+			<key>Description</key>
+			<string>Table view cell name</string>
+			<key>Identifier</key>
+			<string>tableViewCellName</string>
+			<key>Name</key>
+			<string>Cell Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>3</string>
+	<key>Summary</key>
+	<string>This generates new UITableViewCell with view model</string>
+</dict>
+</plist>
